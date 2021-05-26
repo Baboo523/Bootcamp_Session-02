@@ -43,4 +43,4 @@ jobs:
         run: npm install -g surge
         
       - name: deploy on surage
-        run: surge ./build http://app-ld.surge.sh/ --token ${{ secrets.REACT_APP }}
+        run: surge ./build http://alcoholic-curve.surge.sh/ --token ${{ secrets.REACT_APP }}
